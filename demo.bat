@@ -1,0 +1,1 @@
+java -jar target\wordIndexer-1.0-SNAPSHOT-jar-with-dependencies.jar src\test\resources\hamlet.txt William1
