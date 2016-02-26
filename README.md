@@ -1,5 +1,6 @@
 # Indexer
-Если для создания объекта используется конструктор по умолчанию, для хранения данных в памяти используется PATRICIA Trie
+
+Если для создания объекта WordIndex  используется конструктор по умолчанию, для хранения данных в памяти используется PATRICIA Trie
 (https://commons.apache.org/proper/commons-collections/apidocs/org/apache/commons/collections4/trie/PatriciaTrie.html).
 Альтернативный конструктор позволяет указывать другие структуры для хранения данных, реализующие интерфейс IndexStorage,
 а также режим учета регистра букв.
